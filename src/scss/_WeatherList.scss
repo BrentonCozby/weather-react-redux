@@ -1,0 +1,32 @@
+.WeatherList {
+    width: 100%;
+
+    td, th {
+        vertical-align: middle;
+        text-align: center;
+    }
+
+    .Map {
+        width: 250px;
+        height: 200px;
+        margin: auto;
+        border: 5px solid #fff;
+    }
+
+    .Chart {
+        width: 250px;
+        height: 100px;
+        margin: auto;
+    }
+
+    thead {
+        border-bottom: 1px solid #ccc;
+    }
+
+    .city-row {
+
+        td {
+            padding: 10px;
+        }
+    }
+}

@@ -1,0 +1,20 @@
+.SearchBar {
+    margin: 20px auto;
+    max-width: 600px;
+    display: flex;
+    justify-content: center;
+
+    input {
+        display: inline-block;
+        padding: 6px 10px;
+        font-size: 14px;
+    }
+
+    input[type="text"] {
+        width: 100%;
+    }
+
+    input[type="submit"] {
+
+    }
+}

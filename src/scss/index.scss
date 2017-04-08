@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    background-color: #eee;
+}
+
+* {
+    box-sizing: border-box;
+    position: relative;
+    transition: all 200ms;
+}
+
+.main-container {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    max-width: 1600px;
+    padding: 0;
+
+    @media all and (min-width: 480px) {
+        padding: 10px;
+    }
+}
+
+@import "_SearchBar.scss";
+@import "_WeatherList.scss";
